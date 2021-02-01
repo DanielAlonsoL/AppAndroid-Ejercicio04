@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:menu="@menu/menu"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/app_name"
+                android:textColor="@color/colorBlanco"
+                android:textSize="@dimen/size_texto_titulos"
+                android:textStyle="bold"/>
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_linear_game">
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_text_category"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/parts"
+                android:layout_marginBottom="@dimen/margin_bottom_parts"
+                android:src="@drawable/start"
+                android:layout_width="@dimen/parts_width"
+                android:layout_height="@dimen/parts_height"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:id="@+id/words"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom_words"
+                android:background="@color/white"
+                android:padding="@dimen/padding_words"
+                android:orientation="horizontal"
+                android:gravity="center"/>
+
+            <GridView
+                android:id="@+id/letters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_letters"
+                android:padding="@dimen/padding_letters"
+                android:background="@android:color/transparent"
+                android:numColumns="6"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/spacing_letters"
+                android:horizontalSpacing="@dimen/spacing_letters"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

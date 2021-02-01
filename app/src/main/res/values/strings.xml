@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <string name="score_activity">Score</string>
+
+    <string name="base_url">https://www.serverbpw.com/cm/2021-1/hangman.php</string>
+
+    <!-- MENU TOOLBAR -->
+    <string name="about_me">About</string>
+    <string name="contact">Contact</string>
+
+    <!-- SPLASH -->
+    <string name="texto_splash">HANGMAN</string>
+    <string name="texto_version">Version 1.0</string>
+
+    <!-- ACERCA DE -->
+    <string name="texto_mi_nombre">Daniel Alonso Lopez</string>
+    <string name="texto_bio">
+        "I'm a student of the UNAM engineering school",
+        "I'm 23 years old, currently in the ninth semester of a computer engineering degree,"
+        "This is exercise 4 of the Android workshop, developed for the elective subject of Mobile Computing,"
+        "where the use of API connections and the handling of JSON Objects was put into practice,"
+        "as well as the use of shared preferences, enjoy it :)"
+    </string>
+
+    <!-- CONTACTO -->
+    <string name="texto_nombre_contacto">Name</string>
+    <string name="texto_correo">Email</string>
+    <string name="texto_mensaje">Message</string>
+    <string name="texto_enviar">Send</string>
+    <string name="smtp_host" translatable="false">mail.smtp.host</string>
+    <string name="smtp_gmail" translatable="false">smtp.gmail.com</string>
+    <string name="smtp_socketFactory_port" translatable="false">mail.smtp.socketFactory.port</string>
+    <string name="port" translatable="false">465</string>
+    <string name="smtp_socketFactory_class" translatable="false">mail.smtp.socketFactory.class</string>
+    <string name="net_ssl" translatable="false">javax.net.ssl.SSLSocketFactory</string>
+    <string name="smtp_port" translatable="false">mail.smtp.port</string>
+    <string name="smtp_auth" translatable="false">mail.smtp.auth</string>
+    <string name="auth_true" translatable="false">true</string>
+    <string name="espere">Please, wait</string>
+    <string name="enviando">Sending mail…</string>
+    <string name="from" translatable="false">From \</string>
+    <string name="body" translatable="false">"  Body: \\"</string>
+    <string name="envio_exitoso" translatable="false">Successful</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="envio_exitoso_html" translatable="false"><font color='#509324'>Successful</font></string>
+    <string name="envio_correcto">Mail was sent successfully </string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="intente_mas_tarde">Something was wrong, try later</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="text_play">PLAY</string>
+    <string name="text_score">SCORE</string>
+
+    <!-- SCORE -->
+    <string name="saved_high_score_key">score</string>
+    <string name="text_guessed">You have guessed</string>
+    <string name="text_score_upper">SCORE:</string>
+
+
+    <string name="text_words">words</string>
+    <string name="word">word</string>
+    <string name="category">category</string>
+    <string name="you_won">YOU WON</string>
+    <string name="message_won">Congratulation!\n\nCorrect answer was:\n</string>
+    <string name="play_again">Play again</string>
+    <string name="exit">Exit</string>
+    <string name="you_lose">YOU LOSE</string>
+    <string name="message_lose">Failed!\nCorrect answer was:\n</string>
+    <string name="title_error">¡Ups!</string>
+    <string name="supporting_text">Something went wrong, please, try later.</string>
+    <string name="accept">Accept</string>
+    <string name="try_again">Try again</string>
+
+
+</resources>
